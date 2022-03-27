@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: handwriting;
+    src: url(../webfonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: static-font;
+    src: url(../webfonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: info-font;
+    src: url(../webfonts/MPLUS1-Regular.ttf);
+}
+.header-section{
+    transition: 0.3s;
+}
+.handwriting{
+    font-family: handwriting;
+}
+.static-font{
+    font-family: static-font;
+}
+body{
+    font-family: info-font; 
+}
+.header-section li a{
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+}
+.header-white{
+    background-color: white;
+    color: black !important;
+}
+.header-section li a:hover{
+    color: rgb(224, 125, 11) !important;
+}
+.navbar-brand{
+    font-size: 36px !important;
+}
+.bcg-image{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.front-section-1{
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+.top-heading{
+    margin-top: 12% !important;
+    font-size: 12px;
+}
+.orange-part{
+    color: rgb(224, 125, 11);
+}
+h1{
+    font-size: 82px !important;
+    font-weight: bold !important;
+    margin-bottom: 40px !important;
+}
+.first-text{
+    margin-bottom: 50px !important;
+}
+.my-btn{
+    width: 200px !important;
+    height: 50px !important;
+    border:rgb(224, 125, 11) 1px solid !important;
+    background-color:rgba(5,5,5, 0);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+.my-btn:hover{
+    color: rgb(224, 125, 11);
+}
+.address{
+    margin-top: 10% !important;
+}
+.icons{
+    letter-spacing: 1.5em;
+}
+.icons i:hover{
+    color: rgb(224, 125, 11);
+}
+.address a{
+    text-decoration: none;
+    color: white;
+}
+.address a:hover{
+    color: rgb(224, 125, 11);
+}
+.coffee img{
+    width: 100%;
+}
+.info-sec{
+    margin-top: 100px !important;
+}
+.line{
+    width: 30px !important;
+    height: 5px !important;
+    background-color: rgb(224, 125, 11) !important;
+    margin-bottom: 30px;
+}
+.coffee-breake{
+    width: 80%;
+    box-shadow: 50px 50px 50px grey;
+}
+.text h2{
+    margin: 100px 0 15px!important;
+    font-weight: 400;
+}
+.ipad-pic{
+    width: 80%;
+    box-shadow: 50px 50px 50px grey;
+}
+.bcg-image-2{
+    background-image: url(../img/19.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    position: relative !important;
+    background-attachment: fixed;
+
+}
+.front-section-2{
+    background-image: linear-gradient( white, rgba(0,0,255,0) 70.71%);;
+    width: 100%;
+    height: 100vh;
+    position: absolute !important;
+    padding: 100px !important;
+}
+.menu-heading{
+    text-align: center;
+}
+.menu-nav{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: gray !important;
+    transition: 0.2s;
+}
+
+.menu-nav:hover{
+    color: black !important;
+}
+.exo::after {
+    content: '' ;
+    width: 50px ;
+    height: 3px ;
+    background-color:rgb(224, 125, 11);
+    margin-top: 5px;
+    margin-left: 15px;
+    display: block;
+}
+.menu-card img{
+    width: 150px;
+}
+.menu-card h3{
+    font-size: 20px;
+}
+.price{
+    font-size: 25px;
+    font-weight: 500;
+}
+.discription{
+    color: rgb(150, 148, 148);
+}
+.card-line{
+    display: inline-flexbox;
+    width: 100%;
+    background-color: grey;
+    height: 3px;
+}
+.futue-dishes{
+    text-align: center;
+}
+.myCard img{
+    width: 100%;
+}
+.reservation-section{
+    background-color: rgb(223, 228, 240);
+    height: 80vh;
+    text-align: center;
+}
+.inp-groupe{
+    width: 40%;
+    height: 50px;
+    margin: 1%;
+    border: hidden;
+    padding: 1%;
+}
+.dark-btn{
+    color: black;
+    font-family: info-font;
+}
+.roller{
+    cursor: pointer;
+    font-size: 40px;
+    color:  rgb(223, 228, 240);
+    transition: 0.3s ease;
+}
+.roller:hover{
+    color:rgb(224, 125, 11);
+}
+.com-img{
+    width: 300px;
+    border-radius: 50%;
+}
+.dot{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(223, 228, 240);
+    transition: 0.3s ease;
+}
+.dot:hover, .active-dot{
+    background-color:rgb(224, 125, 11);
+}
+.slide-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slide-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.slide-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upcoming-events-row{
+    background-image: url(../img/8.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.upcoming-events h6{
+    color: rgb(224, 125, 11);
+    font-size: 12px;
+}
+.upcoming-events h2{
+    color: white;
+}
+.upcoming-events p{
+    color: white;
+}
+.newslatter{
+    background-color: rgb(223, 228, 240);
+    height: 50vh;
+    text-align: center;
+}
+.gallery{
+    text-align: center;
+}
+.galery-img{
+    width: 100%;
+}
+.footter-section{
+    width: 100%;
+    min-height: 65vh;
+    background-color: rgb(10, 10, 10);
+    line-height: 2;
+}
+.footter-section h6{
+    color: rgb(224, 125, 11);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+.phone-number{
+    color: rgb(224, 125, 11);
+}
+.time-table{
+    color: grey;
+}
+.days{
+    font-size: 12px;
+    font-weight: bold;
+}
